@@ -1,0 +1,4 @@
+container_name= "waiter"
+
+[Chart]
+Name = "my-alpine"
