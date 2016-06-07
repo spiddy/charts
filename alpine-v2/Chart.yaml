@@ -1,4 +1,4 @@
-name: alpine
+name: alpine-v2
 description: Simple pod running Alpine Linux.
 version: 0.1.0
 keywords:
