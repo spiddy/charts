@@ -3,7 +3,6 @@ kind: Pod
 metadata:
   name: {{.Chart.Name}}
 spec:
-  restartPolicy: {{default "Never" .restart_policy}}
   containers:
   - name: {{.container_name}}
     image: "alpine:3.3"
