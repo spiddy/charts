@@ -9,3 +9,4 @@ spec:
   containers:
   - name: waiter
     image: "alpine:3.2"
+    command: ["/bin/sleep","9000"]
