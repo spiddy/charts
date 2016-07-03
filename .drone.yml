@@ -1,0 +1,4 @@
+build:
+  image: alpine
+  commands:
+    - apk update && apk add make bash
